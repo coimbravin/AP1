@@ -18,10 +18,19 @@ alunos = {
 # 1 - (1.5) Calcular a média de cada aluno.
 # 2 - (1.5) Verificar a situação de cada aluno com base nas regras descritas e exiba a descricao.
 
+aluno = "joao"
+notas = alunos[aluno]
+print(notas)
 
+media = sum(notas)/len(notas)
+print(media)
 
-
-
+if media >=7:
+    print("Aprovada")
+if (media <7) and (media >5):
+    print("Recuperação")
+if media <=5:
+    print("Reprovado") 
 
 
 # Você deve desenvolver um sistema para uma loja virtual que armazena e processa pedidos de produtos. 
